@@ -1,0 +1,21 @@
+<html>
+
+<head>
+  <title>Angular JS Controller</title>
+</head>
+
+<body>
+  <h2>AngularJS Filter</h2>
+  <div ng-app="mainApp" ng-controller="DemoController">
+    Enter Number:
+    <input type="text" ng-model="number">
+    <br>
+    <br>Number in words : {{number | inWords}}
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="javascript/app.js"></script>
+  <script src="javascript/filter.js"></script>
+  <script src="javascript/script.js"></script>
+</body>
+
+</html>
